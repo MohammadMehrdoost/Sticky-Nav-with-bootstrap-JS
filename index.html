@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- style Library -->
+  <link href="./../assets/css/style.css" rel="stylesheet">
+  <!-- Animate Library -->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" />
+  <!-- bootstrap Library -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.rtl.min.css">
+</head>
+
+<body">
+  <!-- nav -->
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore at vero error quaerat non aperiam, aut amet quidem
+    soluta dignissimos sequi facilis quis. Facilis temporibus sequi inventore. Veniam, atque mollitia!</p>
+  <nav id="nav" class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">mere</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">connect me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav -->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- bootstrap Library -->
+  <script type="text/javascript" src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var i=0
+    var nav = document.getElementById("nav");
+    var navclass = nav.getAttribute('class');
+    window.addEventListener('scroll', function () {
+      if (i==0) {
+          nav.setAttribute('class', nav.className + " sticky-top");
+          i++;
+      }
+    })
+  </script>
+  </body>
+
+</html>
